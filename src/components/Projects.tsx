@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FolderGit2 } from 'lucide-react'
+import { ExternalLink, FolderGit2 } from 'lucide-react'
 import { projects } from '../data/resume'
 
 export default function Projects() {
@@ -51,7 +51,7 @@ export default function Projects() {
                 ))}
               </ul>
 
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 {project.tech.map((t) => (
                   <span
                     key={t}
@@ -60,6 +60,17 @@ export default function Projects() {
                     {t}
                   </span>
                 ))}
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-mono text-accent hover:text-accent-light ml-auto px-2.5 py-1 rounded-md border border-accent/30 hover:border-accent transition-colors"
+                  >
+                    <ExternalLink size={12} />
+                    Live Site
+                  </a>
+                )}
               </div>
             </motion.article>
           ))}

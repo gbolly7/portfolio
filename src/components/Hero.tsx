@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Mail, Github, Linkedin } from 'lucide-react'
+import { ArrowDown, Download, Mail, Github, Linkedin } from 'lucide-react'
 import { personalInfo, stats } from '../data/resume'
 import HeroScene from './HeroScene'
 
@@ -56,6 +56,10 @@ export default function Hero() {
           >
             <a href="#projects" className="btn-primary">
               View My Work
+            </a>
+            <a href="#resume" className="btn-outline">
+              <Download size={18} />
+              My Resume
             </a>
             <a href="#contact" className="btn-outline">
               <Mail size={18} />

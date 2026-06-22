@@ -63,6 +63,7 @@ export const projects = [
       'Deployed and maintained production backend on Render.',
     ],
     featured: true,
+    liveUrl: 'https://asva-legacy-project-frontend-5wxf.vercel.app',
   },
   {
     title: 'ASVA Hub',
@@ -159,9 +160,21 @@ export const navLinks = [
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Resume', href: '#resume' },
   { label: 'Leadership', href: '#leadership' },
   { label: 'Contact', href: '#contact' },
 ]
+
+export const resumeFileName = 'Abioye_Gbolahan_Resume.pdf'
+
+export interface Project {
+  title: string
+  description: string
+  tech: string[]
+  highlights: string[]
+  featured: boolean
+  liveUrl?: string
+}
 
 export const stats = [
   { value: '30+', label: 'API Endpoints' },
