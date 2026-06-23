@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Download, Mail, Github, Linkedin } from 'lucide-react'
-import { personalInfo, stats } from '../data/resume'
+import { ArrowDown, Mail, Github, Linkedin } from 'lucide-react'
+import { personalInfo } from '../data/resume'
 import HeroScene from './HeroScene'
 
 export default function Hero() {
