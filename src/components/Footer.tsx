@@ -10,7 +10,7 @@ export default function Footer() {
           {'<'} {personalInfo.name.split(' ')[1]} Abioye &copy; {year} {' />'}
         </p>
         <p className="text-gray-600 text-sm">
-          Built with React, Three.js &amp; Tailwind CSS
+          {/* Built with React, Three.js &amp; Tailwind CSS */}
         </p>
       </div>
     </footer>

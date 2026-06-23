@@ -77,6 +77,7 @@ export const projects = [
       'Collaborated with a team of 10 developers on system design and API development.',
     ],
     featured: true,
+    liveUrl: '',
   },
   {
     title: 'E-Commerce Website',
@@ -98,6 +99,7 @@ export const projects = [
       'Integrated 3D animations and modern frontend patterns.',
     ],
     featured: false,
+    liveUrl: 'portfolio-5xnifp9p3-phen.vercel.app',
   },
 ]
 
@@ -176,9 +178,9 @@ export interface Project {
   liveUrl?: string
 }
 
-export const stats = [
-  { value: '30+', label: 'API Endpoints' },
-  { value: '7K+', label: 'Platform Users' },
-  { value: '10+', label: 'Team Collaborators' },
-  { value: '4', label: 'Certifications' },
+ export const stats = [
+  // { value: '30+', label: 'API Endpoints' },
+  // { value: '7K+', label: 'Platform Users' },
+  // { value: '10+', label: 'Team Collaborators' },
+  // { value: '4', label: 'Certifications' },
 ]

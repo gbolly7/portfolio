@@ -37,7 +37,7 @@ export default function Resume() {
               Download PDF
             </button>
             <p className="text-gray-500 text-sm text-center">
-              One-click download — formatted for job applications
+              {/* One-click download — formatted for job applications */}
             </p>
 
             <div className="glass-card p-5 space-y-4">

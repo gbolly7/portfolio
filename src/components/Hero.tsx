@@ -57,10 +57,10 @@ export default function Hero() {
             <a href="#projects" className="btn-primary">
               View My Work
             </a>
-            <a href="#resume" className="btn-outline">
+            {/* <a href="#resume" className="btn-outline">
               <Download size={18} />
               My Resume
-            </a>
+            </a> */}
             <a href="#contact" className="btn-outline">
               <Mail size={18} />
               Get In Touch
