@@ -73,12 +73,12 @@ export default function Hero() {
             transition={{ delay: 0.9 }}
             className="grid grid-cols-2 md:grid-cols-4 gap-6"
           >
-            {stats.map((stat) => (
+            {/* {stats.map((stat) => (
               <div key={stat.label} className="glass-card p-4 text-center">
                 <div className="text-2xl md:text-3xl font-bold gradient-text">{stat.value}</div>
                 <div className="text-xs text-gray-500 mt-1">{stat.label}</div>
               </div>
-            ))}
+            ))} */}
           </motion.div>
         </div>
 
